@@ -1,5 +1,5 @@
 {
-  "name": "budget-app",
+  "name": "ledger",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@neon/auth": "^0.8.2",
+    "@neon/config": "^1.14.8",
+    "@neon/env": "^2.1.11",
+    "@neondatabase/serverless": "^1.2.1",
+    "chart.js": "^4.6.2",
     "next": "16.4.6",
     "react": "19.3.0",
+    "react-chartjs-2": "^5.3.1",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
